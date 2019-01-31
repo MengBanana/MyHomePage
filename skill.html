@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta author="Xinmeng">
+  <meta description="Xinmeng Zhang's Personal Page">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Xinmeng Zhang</title>
+
+  <!-- icon -->
+  <link rel="shortcut icon" type="image/png" href="./pictures/icon.jpg"/>
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Pacifico" rel="stylesheet">
+
+  <!-- social media icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- full bootstraocdn -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body class="animated fadeInLeft">
+
+  <!-- floating header  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-lpink fixed-top d-flex" id="float-header">
+    <div class="container">
+
+      <!-- home buttoon -->
+      <div class="flex-grow-1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item top-title active">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- toggle bar appear when shrink -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar elements -->
+      <div class="navbar-collapse collapse flex-grow-0" id="navbarNav">
+        <div class="mr-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item top-title">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item top-title">
+              <a class="nav-link" href="#skill">Skill</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- fixed header -->
+  <div class="container fixed-header" id="fixed-header"></div>
+
+  <!-- Go back to top button-->
+  <button id="btn" class="btn bg-dpink" title="Go to top">Top</button>
+
+
+  <!-- Project -->
+  <section class="project" id="project">
+    <div class="container section-header">
+      <p class="section-title">
+        Project
+      </p>
+    </div> 
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-6 project-item">
+          <a href="https://github.com/MengBanana/Card_Game" target="_blank">
+            <div class="caption">
+              <div class="caption-content">
+                <h2>Card Game</h2>
+                <p class="mb-0">Created a Java concurrent card game with a dealer and several players. Designed on top of synchronized Producer and Consumer model using blocking queue instead of mutex lock. Generated the Game in a multi-threaded environment, played game and displayed the hands of players.
+                </p>
+              </div>
+            </div>
+          </a>
+          <img class="img-fluid" src="./pictures/card-game.jpg" alt="card game">
+        </div>
+        <div class="col-lg-6 project-item">
+          <a href="https://github.com/MengBanana/Investment" target="_blank">
+            <div class="caption">
+              <div class="caption-content">
+                <h2>Chevron</h2>
+                <p class="mb-0">
+                  Worked on Simio Simulation and Scheduling Software (Simio) to build and execute dynamic models. Analyzed the factors that affect storage and transportation. Then, we used General Algebraic Modeling System (GAMS) which is a high-level modeling system designed to solve linear or mixed optimization problems.
+                </p>
+              </div>
+            </div>
+          </a>
+          <img class="img-fluid" src="./pictures/investment.jpg" alt="investment">
+        </div>
+        <div class="col-lg-6 project-item">
+          <a href="https://github.com/MengBanana/FullStack_TinyURL" target="_blank">
+            <div class="caption">
+              <div class="caption-content">
+                <h2>Tiny URL Shortner</h2>
+                <p class="mb-0">Developed a TinyURL generator that returns shortened URL to client. Optimized webserver performance use Nginx as a load balancer and reverse proxy. Improved the cloud MongoDB reading and writing speed by adding Redis as cache. Dockerized the whole project to solve software deployment problems.
+                </p>
+              </div>
+            </div>
+          </a>
+          <img class="img-fluid" src="./pictures/url-shortner.jpg" alt="shorturl">
+        </div>
+        <div class="col-lg-6 project-item">
+          <a href="https://github.com/MengBanana/Tweet_Cloud" target="_blank">
+            <div class="caption">
+              <div class="caption-content">
+                <h2>Pokémon Go Rererse Engineering</h2>
+                <p class="mb-0"> Interpreted Pokémon Go workflow through unofficial Pokémon Go API in Python. Researched and compared reverse engineering technics including network traffic inspection, HTTPS decryption, certificate pinning cracking, Tor proxy and social engineering. Implemented map scanner function using Google S2 Algorithm. Parsed mock Pokémon Go API to achieve nearby wild Pokémon. 
+                </p>
+              </div>
+            </div>
+          </a>
+          <img class="img-fluid" src="./pictures/pokemon-go.jpg" alt="pokemon">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- skill -->
+  <section class="skill" id="skill">
+    <div class="container section-header">
+      <p class="section-title">
+        Skill
+      </p>
+    </div> 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-4 skill-item">
+          <div class="card bg-dpink">
+            <img class="card-img" src="./pictures/java.png" alt="java">
+            <div class="card-body">
+              <p class="card-text">⭐⭐⭐⭐</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 skill-item">
+          <div class="card bg-dpink">
+            <img class="card-img" src="./pictures/python.png" alt="python">
+            <div class="card-body">
+              <p class="card-text">⭐⭐⭐⭐</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 skill-item">
+          <div class="card bg-dpink">
+            <img class="card-img" src="./pictures/js.png" alt="js">
+            <div class="card-body">
+              <p class="card-text">⭐⭐⭐</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 skill-item">
+          <div class="card bg-dpink">
+            <img class="card-img" src="./pictures/html.png" alt="html">
+            <div class="card-body">
+              <p class="card-text">⭐⭐⭐</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 skill-item">
+          <div class="card bg-dpink">
+            <img class="card-img" src="./pictures/css.png" alt="css">
+            <div class="card-body">
+              <p class="card-text">⭐⭐⭐</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 skill-item">
+          <div class="card bg-dpink">
+            <img class="card-img" src="./pictures/mysql.png" alt="mysql">
+            <div class="card-body">
+              <p class="card-text">⭐⭐</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <footer class="container">
+      <nav class="social">
+        <ul>
+          <li> <a href="https://www.facebook.com/xinmeng.zhang" target="_blank" class="fa fa-facebook"></a></li>
+          <li> <a href="https://www.instagram.com/meng_bananana/" target="_blank" class="fa fa-instagram"></a></li>
+          <li> <a href="https://twitter.com/XinmengZhang" target="_blank" class="fa fa-twitter"></a></li>
+          <li> <a href="https://www.linkedin.com/in/xinmeng-zhang-43468a8b/" target="_blank" class="fa fa-linkedin"></a></li>
+        </ul>
+      </nav>
+      <p class="copyright">
+        All rights reserved &copy;
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src='./js/main.js'></script>
+    <script src='./js/button.js'></script>
+  </body>
+  </html>
+

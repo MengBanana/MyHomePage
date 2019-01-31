@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta author="Xinmeng">
+	<meta description="Xinmeng Zhang's Personal Page">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Xinmeng Zhang</title>
+
+	<!-- icon -->
+	<link rel="shortcut icon" type="image/png" href="./pictures/icon.jpg"/>
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Pacifico" rel="stylesheet">
+
+	<!-- social media icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- full bootstraocdn -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+	<!-- customized css -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<!-- body fadein from left-->
+<body class="animated fadeInLeft">
+
+	<!-- floating header  -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-lpink fixed-top d-flex" id="float-header">
+		<div class="container">
+
+			<!-- home buttoon -->
+			<div class="flex-grow-1">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item top-title active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- toggle bar appear when shrink -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- navbar elements -->
+			<div class="navbar-collapse collapse flex-grow-0" id="navbarNav">
+				<div class="mr-auto">
+					<ul class="navbar-nav">
+						<li class="nav-item top-title">
+							<a class="nav-link" href="#introduction">Me</a>
+						</li>
+						<li class="nav-item top-title">
+							<a class="nav-link" href="#life">Life</a>
+						</li>
+						<li class="nav-item top-title dropdown none-display">
+							<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Education
+							</a>
+							<div class="dropdown-menu bg-lpink" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#ut">University of Texas Austin</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#neu">Northeastern University</a>
+							</div>
+						</li>
+						<li class="nav-item top-title">
+							<a class="nav-link" href="#experience">Experience</a>
+						</li>
+						<li class="nav-item top-title">
+							<a class="nav-link" target="_blank" href="./skill.html">Project&Skill</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</nav>
+
+	<!-- fixed header -->
+	<div class="container fixed-header" id="fixed-header"></div>
+
+	<!-- Go back to top button-->
+	<button id="btn" class="btn bg-dpink" title="Go to top">Top</button>
+
+
+	<!-- Introduction-->
+	<section class="introduction" id="introduction">
+		<div class="container">
+			<p class="section-title">
+				About Xinmeng
+			</p>
+		</div>
+		<div class="container">	
+			<div class="row align-items-center">
+				<div class="col-md-3 col-sm-12">
+					<img class="my-pic" id="my-pic" src="./pictures/me.jpg" alt="my picture">
+				</div>
+				<div class="col-md-6 col-sm-12 offset-2">
+					<p class="intro-text">
+						<br>
+						I'm currently a Master of Computer Science Student at Northeastern University. I got my Bachelor degree in Business Administation at University of Texas at Austin. After graduated, I gained practical experience in supply chain management and accounting. In 2017, I started to learn Python by myself, and found my interest in computer science. I got passion for coding and ready to learn new knowledge and frameworks all the time.<br><br>
+						During spare time, I love to travel and meet friends. One of my dreams is to become a Gourmet. Currently, I'm training my skills in Ukelele, Ski and Caligraphy.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- My life-->
+	<section class="life" id="life">
+		<div class="container">
+			<p class="section-title">
+				Life
+			</p>
+		</div>
+		<div id="slide-img" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#slide-img" data-slide-to="0" class="active"></li>
+				<li data-target="#slide-img" data-slide-to="1"></li>
+				<li data-target="#slide-img" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="carousel-item active" style="background-image: url('./pictures/travel1.jpg')">
+					<div class="carousel-caption d-none d-md-block">
+						<h3>Chile</h3>
+						<p>Atacama Desert</p>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url('./pictures/travel2.jpg')">
+					<div class="carousel-caption d-none d-md-block">
+						<h3>Seattle</h3>
+						<p>Space Needle</p>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url('./pictures/travel3.jpg')">
+					<div class="carousel-caption d-none d-md-block">
+						<h3>San Francisco</h3>
+						<p>Natural Science Museum Aquarium</p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#slide-img" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#slide-img" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</section>
+
+
+	<!-- education -->
+	<section class="education" id="education">
+		<div class="container section-header">
+			<p class="section-title">
+				Education
+			</p>
+		</div>
+		<div class="container" id ="ut">
+			<div class="row align-items-center">
+				<div class="col-lg-6 order-lg-2">
+					<div class="pp1">
+						<img class="rounded-circle pic1" src="./pictures/ut.gif" alt="ut logo">
+					</div>
+				</div>
+				<div class="col-lg-6 order-lg-1">
+					<div class="section-text">
+						<h2>Bachelor of Business Administration - Accounting</h2>
+						<ul>
+							<li>Rank #1 Accounting Program in the nation</li>
+							<li>Financial analysis techniques</li>
+							<li>Profound knowledge of business transactions</li>
+							<li>Present financial statements to assist in decision making</li>
+							<li>Ensure that financial statements comply with laws/regulations</li>
+							<li>Analyse business and economic models</li>
+							<li>Optimaze supply chain management</li>
+							<li>Intro knowledge about Marketing and Finance</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="container" id="neu">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="p2">
+						<img class="rounded-circle pic2" src="./pictures/neu.jpg" alt="husky">
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="section-text">
+						<h2>Master of Computer Sicence</h2>
+						<ul>
+							<li>Fundamental ideas of computing and programming principles</li>
+							<li>Basic principles and techniques for the design and implementation of efficient algorithms and data representations</li>
+							<li>Design of computing systems, computer operating systems, and assembly language using a RISC architecture</li>
+							<li>Algorithmic design paradigms and techniques for analyzing the correctness, time, and space complexity of algorithms </li>
+							<li>Relational database management systems as a class of software systems</li>
+							<li>Software development issues of integrating multiple languages, assorted data technologies, and Web interaction</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- experience -->
+    <section id="experience" class="experience">
+    	<div class="container section-header">
+			<p class="section-title">
+				Experience
+			</p>
+		</div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="./pictures/austin.jpg" alt="austin">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2011-2015</h4>
+                    <h4 class="subheading">Austin, TX</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">College life at Austin - which is reported as #1 city to live in the USA. Besides enjoying the BBQ and water sports, also gained practical experience in supply chain management at Chevron.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="./pictures/supply.jpg " alt="supply">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2015-2016</h4>
+                    <h4 class="subheading">Round Rock, TX</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Interned at Apache Power Industrial as supply chain analyst and accountant. Monitored and prepared reconciled AP for international multicurrency vendors. Analyzed supply chain based on sales projection and implemented strategic ordering plan.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="./pictures/nutrition.jpg" alt="nutrition">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2016-2017</h4>
+                    <h4 class="subheading">Houston, TX</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Obtain certificate in pre-med and nutrition. Volunteered at St Davis Medical Center. Helped inpatient department and discharing patients.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="./pictures/computer.jpg" alt="computer">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2018</h4>
+                    <h4 class="subheading">Silicon Valley, CA</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Enroll in Northeastern University. Focus on computer science study. Learnt computer basic from the beginning. Gained experience in multiple mini projects.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Future
+                    <br>Software
+                    <br>Developer?!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+	</section>
+
+
+	<!-- footer -->
+	<footer class="container">
+		<nav class="social">
+			<ul>
+				<li> <a href="https://www.facebook.com/xinmeng.zhang" target="_blank" class="fa fa-facebook"></a></li>
+				<li> <a href="https://www.instagram.com/meng_bananana/" target="_blank" class="fa fa-instagram"></a></li>
+				<li> <a href="https://twitter.com/XinmengZhang" target="_blank" class="fa fa-twitter"></a></li>
+				<li> <a href="https://www.linkedin.com/in/xinmeng-zhang-43468a8b/" target="_blank" class="fa fa-linkedin"></a></li>
+			</ul>
+		</nav>
+		<p class="copyright">
+			All rights reserved &copy;
+		</p>
+	</footer>
+
+	<!-- script -->
+	<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src='./js/main.js'></script>
+	<script src='./js/button.js'></script>
+	<script src='./js/change-img.js'></script>
+</body>
+</html>
