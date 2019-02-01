@@ -30,5 +30,6 @@ basic web technics and apply the knowledge to a real life project. Also lay the 
 ![Demo of MyHomePage](https://github.com/MengBanana/MengBanana.github.io/blob/master/demo.gif)
 
 ## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 This project is licensed under the MIT License
 
